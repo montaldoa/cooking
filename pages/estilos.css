@@ -1,0 +1,68 @@
+
+
+header{background-color:#FfF8E7;
+    position:sticky}
+
+h1{
+    color: #E12C2C;
+}
+
+h2 {
+    color: #E12C2C;
+}
+
+.fondo{
+    background-color:#FfF8E7
+}
+
+.full-width-img img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.fileMenu{
+    text-align: left;
+}
+li{
+    color: black;
+}
+
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 28vh;
+    row-gap: 0;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+        
+        li {
+            float: left;
+
+        }
+}
+
+.imagencomidafoto {
+    width: 350px; /* Ancho deseado */
+    height: 220px; /* Alto deseado */
+    overflow: hidden; /* Para recortar la imagen si es más grande */
+}
+
+.imagencomidafoto img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
